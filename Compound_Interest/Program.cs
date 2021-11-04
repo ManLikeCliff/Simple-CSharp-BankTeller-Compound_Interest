@@ -14,7 +14,7 @@ namespace Compound_Interest
             Console.ReadLine();
 
             Console.WriteLine("Hi, Welcome to the Bank " + "! \nPlease select account type. \nInput a number to choose:");
-            Console.WriteLine("1. Savings \n2. Current");
+            Console.WriteLine("1. Savings \n2. Current \n3. Corporate");
             int answerIndex = int.Parse(Console.ReadLine());
 
             Console.WriteLine("Input your Investment Amount (N)");
